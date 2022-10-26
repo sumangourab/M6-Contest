@@ -47,13 +47,13 @@ function validate(isSubmitted = false) {
 
     let alertMessage = `Hobbies of ${fullName} (${gender}) are `
     if (hobbies1) {
-        alertMessage = alertMessage + 'Swimming and ';
+        alertMessage = alertMessage + 'Swimming ';
     }
     if (hobbies2) {
-        alertMessage = alertMessage + 'Reading novels and ';
+        alertMessage = alertMessage + 'Reading novels ';
     }
     if (hobbies3) {
-        alertMessage = alertMessage + 'Dancing and  ';
+        alertMessage = alertMessage + 'Dancing ';
     }
     if (hobbies4) {
         alertMessage = alertMessage + 'Singing ';
